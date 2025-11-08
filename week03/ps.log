@@ -1,0 +1,35 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 13:18 ?        00:00:00 /sbin/init
+root           2       1  0 13:18 ?        00:00:00 /init
+root           7       2  0 13:18 ?        00:00:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          64       1  0 13:18 ?        00:00:00 /usr/lib/systemd/systemd-journald
+root         110       1  0 13:18 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+root         124       1  0 13:18 ?        00:00:00 snapfuse /var/lib/snapd/snaps/core22_2111.snap /snap/core22/2111 -o ro,nodev,allow_other,suid
+root         125       1  0 13:18 ?        00:00:00 snapfuse /var/lib/snapd/snaps/bare_5.snap /snap/bare/5 -o ro,nodev,allow_other,suid
+root         131       1  0 13:18 ?        00:00:00 snapfuse /var/lib/snapd/snaps/core22_2133.snap /snap/core22/2133 -o ro,nodev,allow_other,suid
+root         138       1  0 13:18 ?        00:00:00 snapfuse /var/lib/snapd/snaps/core24_1151.snap /snap/core24/1151 -o ro,nodev,allow_other,suid
+root         139       1  0 13:18 ?        00:00:00 snapfuse /var/lib/snapd/snaps/firefox_6738.snap /snap/firefox/6738 -o ro,nodev,allow_other,suid
+root         150       1  0 13:18 ?        00:00:00 snapfuse /var/lib/snapd/snaps/gnome-42-2204_202.snap /snap/gnome-42-2204/202 -o ro,nodev,allow_other,suid
+root         151       1  0 13:18 ?        00:00:00 snapfuse /var/lib/snapd/snaps/gtk-common-themes_1535.snap /snap/gtk-common-themes/1535 -o ro,nodev,allow_other,suid
+root         160       1  0 13:18 ?        00:00:00 snapfuse /var/lib/snapd/snaps/htop_5092.snap /snap/htop/5092 -o ro,nodev,allow_other,suid
+root         166       1  0 13:18 ?        00:00:02 snapfuse /var/lib/snapd/snaps/snapd_25202.snap /snap/snapd/25202 -o ro,nodev,allow_other,suid
+root         169       1  0 13:18 ?        00:00:00 snapfuse /var/lib/snapd/snaps/tree_54.snap /snap/tree/54 -o ro,nodev,allow_other,suid
+systemd+     263       1  0 13:18 ?        00:00:00 /usr/lib/systemd/systemd-resolved
+systemd+     271       1  0 13:18 ?        00:00:00 /usr/lib/systemd/systemd-timesyncd
+root         277       1  0 13:18 ?        00:00:00 /usr/sbin/cron -f -P
+message+     278       1  0 13:18 ?        00:00:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         292       1  0 13:18 ?        00:00:00 /usr/lib/snapd/snapd
+root         297       1  0 13:18 ?        00:00:00 /usr/lib/systemd/systemd-logind
+root         305       1  0 13:18 ?        00:00:00 /usr/libexec/wsl-pro-service -vv
+root         326       1  0 13:18 hvc0     00:00:00 /sbin/agetty -o -p -- \u --noclear --keep-baud - 115200,38400,9600 vt220
+syslog       333       1  0 13:18 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         341       1  0 13:18 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         353       1  0 13:18 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         519       2  0 13:18 ?        00:00:00 /init
+root         520     519  0 13:18 ?        00:00:01 /init
+injae        521     520  0 13:18 pts/0    00:00:00 -bash
+root         522       2  0 13:18 pts/1    00:00:00 /bin/login -f
+injae        535       1  0 13:18 ?        00:00:00 /usr/lib/systemd/systemd --user
+injae        536     535  0 13:18 ?        00:00:00 (sd-pam)
+injae        549     522  0 13:18 pts/1    00:00:00 -bash
+injae       1047     521  0 14:13 pts/0    00:00:00 ps -ef
