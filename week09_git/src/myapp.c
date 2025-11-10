@@ -14,6 +14,12 @@ double calculate(char *op, double a, double b){
   else if(strcmp(op, "/") == 0){
     return myadd(a, b);
   }
+  else if(strcmp(op, "%") == 0){
+    return mymod(a, b);
+  }
+  else if(strcmp(op, "^") == 0){
+    return mypow(a, b);
+  }
   else{
     printf("Unspported operation: %s\n", op);
     return 0;

@@ -1,10 +1,10 @@
 #include "myops.h"
 
-double mydiv(double a, double b){
+double mymod(double a, double b){
   if(b == 0){
     printf("Unable to divide by zero\n");
     return -999;
   }
 
-  return a / b;
+  return (double)((int)a % (int)b);
 }
