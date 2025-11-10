@@ -1,7 +1,23 @@
-#include <stdio.h>
+#include "myops.h"
 
 double calculate(char *op, double a, double b){
-  printf("Calulating...\n");
+  
+  if(strcmp(op, "+") == 0){
+    return myadd(a, b);
+  }
+  else if(strcmp(op, "-") == 0){
+    return myadd(a, b);
+  }
+  else if(strcmp(op, "*") == 0){
+    return myadd(a, b);
+  }
+  else if(strcmp(op, "/") == 0){
+    return myadd(a, b);
+  }
+  else{
+    printf("Unspported operation: %s\n", op);
+    return 0;
+  }
 }
 
 int main(){
