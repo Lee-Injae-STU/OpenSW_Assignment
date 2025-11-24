@@ -1,5 +1,7 @@
 #! /bin/bash
 
+
+
 MY_APP = bin/myapp
 LIB = lib/libmybasic.a
 INC = include
