@@ -27,3 +27,4 @@ Each directory corresponds to a specific assignment or lecture.
 * **`week09_git/`**: Assignments on Git version control (branching, merging).
 * **`week06_bash.tar.gz/`**:Assignment's result from week06_bash folder with compression
 * **`week11_syscall_file/`**: File I/O system calls
+* **`week12_syscall_process/`**: Process system calls
